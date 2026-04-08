@@ -1067,6 +1067,7 @@ body::before {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .logo-no-text {
@@ -2079,5 +2080,31 @@ body::before {
 
   .menu-burger {
     display: none !important;
+  }
+}
+
+@media (max-height: 990px) {
+  .bottle-kraken {
+    max-width: 250px;
+  }
+
+  .bottle-siren {
+    max-width: 225px;
+  }
+
+  .bottle-kraken-tilt {
+    max-width: 400px;
+  }
+
+  .storytelling {
+    min-height: 180vh;
+  }
+
+  .beer-content p {
+    max-width: 50vh;
+  }
+
+  .beers {
+    padding-top: 60px;
   }
 }
